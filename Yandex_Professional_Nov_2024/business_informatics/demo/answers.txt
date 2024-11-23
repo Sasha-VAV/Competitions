@@ -1,0 +1,37 @@
+1.
+Событие, Действие, Пул, Шлюз, Артефакт и Дорожка
+2.
+
+Виктор	Федоров	Дмитриевич	2022-09-25	Кафедра Физики
+Александр	Соколов	Сергеевич	2021-12-30	Кафедра Физики
+
+
+SELECT t.first_name, t.last_name, t.patronymic, t.employment_date, d.department_name
+FROM teachers t
+JOIN departments d ON t.department_id = d.department_id
+WHERE t.employment_date BETWEEN '2021-01-01' AND '2022-12-31'
+AND d.department_name = 'Кафедра Физики';
+
+3.
+2
+
+4. Not sure:
+23.211.124.146
+
+5.
+Ф118
+
+6.
+Дружба не обладает свойством транзитивности
+
+7.
+Агрегация
+
+8.
+Фасад
+
+9.
+update, delete
+
+10.
+Блок-схема
