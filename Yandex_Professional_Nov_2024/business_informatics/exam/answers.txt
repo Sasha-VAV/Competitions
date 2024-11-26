@@ -1,0 +1,34 @@
+1.
+Управление, Метод, Механизм
+
+2.
+
+SELECT t.first_name as Имя, t.patronymic as Отчество, t.last_name as Фамилия,
+t.degree_date as 'Дата присвоения степени', d.degree_name as 'Ученая степень'
+FROM teachers t
+JOIN academic_degrees d ON t.degree_id = d.degree_id
+WHERE t.degree_date BETWEEN '2000-01-01' AND '2010-12-31';
+
+3.
+2
+
+4.
+PICKLESWORTH
+
+5.
+Х74
+
+6.
+3
+
+7.
+Агрегация
+
+8.
+Декоратор
+
+9.
+Начинает новую SQL транзакцию
+
+10.
+Agile
